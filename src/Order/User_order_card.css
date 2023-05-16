@@ -1,0 +1,8 @@
+.useroder_card{
+    border: 1px solid  purple;
+    flex-basis: 49%; /* 調整此數值以控制每行顯示的div數量 */
+    margin-bottom: 5px;
+    height: 100px;
+
+    border-radius: 20px;
+}
