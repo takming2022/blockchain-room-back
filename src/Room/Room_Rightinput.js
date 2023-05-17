@@ -199,8 +199,8 @@ const Rightinput = ({ Roomid, get_room_card, setRoomid }) => {
             autosize
             minRows={2}
             maxRows={4}
-            defaultValue={Contract_equiment}
-            onChange={(e) => { set_Contract_equiment(e.target.value) }}
+            defaultValue={Contract_introduce}
+            onChange={(e) => { set_Contract_introduce(e.target.value) }}
           />
         </ScrollArea>
       </div>

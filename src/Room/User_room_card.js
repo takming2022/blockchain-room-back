@@ -51,11 +51,14 @@ const User_room_card = ({ id, title_room_name, describe, describe_wallet_addr, i
     setRoomid(id)
     console.log(id);
   }
+  function hidden(str) {
+    return str.substring(0, 6) + "...." + str.substring(str.length - 4);
+  }
   return (
     <>
     <Card withBorder radius="md" className={classes.card}>
     <Card.Section className={classes.imageSection}>
-      <div>{id}</div>
+      <div>{hidden(id)}</div>
         
       </Card.Section>
       <Group position="apart" mt="md">
